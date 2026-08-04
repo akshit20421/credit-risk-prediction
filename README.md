@@ -118,14 +118,12 @@ credit-risk-prediction/
 ├── german_credit_data.csv
 ├── README.md
 ├── requirements.txt
-│
-└── models/
-    ├── random_forest_credit_model.pkl
-    ├── Sex_label_encoder.pkl
-    ├── Housing_label_encoder.pkl
-    ├── Saving accounts_label_encoder.pkl
-    ├── Checking account_label_encoder.pkl
-    └── target_encoder.pkl
+├── random_forest_credit_model.pkl
+├── Sex_label_encoder.pkl
+├── Housing_label_encoder.pkl
+├── Saving accounts_label_encoder.pkl
+├── Checking account_label_encoder.pkl
+└── target_encoder.pkl
 ```
 
 > If the model files are stored inside the `models/` directory, make sure the corresponding paths in `app.py` point to the `models/` directory.
